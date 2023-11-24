@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"
+        charset="utf-8"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Fortfolio</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <header class="header">
+
+        <!-- <a href="#" class="logo">Logo</a>
+
+            <label for="" class="icons">
+                <i class="bx bx-menu"></i>
+            </label> -->
+
+        <nav class="navbar">
+            <div class="left">Navin's Portfolio</div>
+
+            <div class="right">
+                <ul>
+                    <li> <a href="#home"> Home</li></a>
+                    <li> <a href="#about"> About</li></a>
+                    <li> <a href="#skills"> Skills</li></a>
+                    <li> <a href="#project"> Projects</li></a>
+                    <li> <a href="#contact">Contact Me</li></a>
+                </ul>
+
+                <!-- <button id="menu-btn"><span class="material-icons-sharp">menu</span></button>
+                <button id="close-btn"><span class="material-icons-sharp">close</span></button> -->
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection" id="home">
+            <div class="leftSection">
+                Hello, This is <span class="purple"> Navin Kumar</span>
+                <div>and i am a passionate </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href="./img_3.jpg">Download Resume</a></button>
+                    <button class="btn"><a href="https://github.com/navinGitkr">Visit Github</a></button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="image/deve_img.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection" id="about">
+            <h1>About</h1>
+            <div class="about">
+                <img src="image/Developer_img.png" alt="">
+                <div class="info">
+                    <p>Hello, I am Navin Kumar Currently Pursuing B.E-Computer Science and Engineering at Aarupadai
+                        Veedu Institute of Technology in Chennai. My aim is to work as a FullStack Developer . I am
+                        learning Programming Languages and Related New trend Which is Required in IT Industry . As a
+                        Beginer I worked on the projects on Web Developement I have created Educational and Business
+                        Portfolio Websites
+                    </p>
+                    <br>
+                    <p> I am Looking for new opportunity to work on Real World Projects to gain Exprience as well as
+                        improve my Knowledge in Web Development field</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!----------- My Skill Section --------------->
+
+        <section class="skills" id="skills">
+            <div class="main-text">
+                <span>Technical and Professional</span>
+                <h2>My Skills</h2>
+            </div>
+            <div class="skill-main">
+                <div class="skill-left">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>HTML</p>
+                            <p>72%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="html"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>CSS</p>
+                            <p>55%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="css"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>JavaScript</p>
+                            <p>30%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="javascript"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>Bootstrap</p>
+                            <p>30%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="bootstrap"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-right">
+                    <h3>Professional Skills</h3>
+                    <div class="skill_container">
+                        <div class="box">
+                            <div class="chart" data-percent="85">85%</div>
+                            <p>Communication</p>
+                        </div>
+                        <div class="box">
+                            <div class="chart" data-percent="72">72%</div>
+                            <p class="team">Team Management</p>
+                        </div>
+                        <div class="box">
+                            <div class="chart" data-percent="60">60%</div>
+                            <p>Problem Solving</p>
+                        </div>
+                        <div class="box">
+                            <div class="chart" data-percent="60">60%</div>
+                            <p class="Adaptability">Adaptability</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <hr>
+        <!---------------- projects Section ------------------->
+        <section id="project" class="poject-section">
+            <div class="main-text">
+                <span class="" style="color: gray;">What i will do for you</span>
+                <h2>Latest Projects</h2>
+            </div>
+
+            <div class="project-container">
+                <div class="amazon clone">
+                    <h3>Amazon Clone</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab delectus necessitatibus ad
+                        perferendis modi libero, repellat praesentium amet error corporis </p>
+                </div>
+                <div class="netflix clone">
+                    <h3>Netflix Clone</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab delectus necessitatibus ad
+                        perferendis modi libero, repellat praesentium amet error corporis</p>
+                </div>
+                <div class="portfolio clone">
+                    <h3>My Portfolio</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab delectus necessitatibus ad
+                        perferendis modi libero, repellat praesentium amet error corporis</p>
+                </div>
+                <div class="temperature-converter">
+                    <h3>Temperature Converter</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab delectus necessitatibus ad
+                        perferendis modi libero, repellat praesentium amet error corporis </p>
+                </div>
+                <div class="landing-page">
+                    <h3>Landing Page</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab delectus necessitatibus ad
+                        perferendis modi libero, repellat praesentium amet error corporis</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+    </main>
+    <!--------------- Contact me Section ---------------->
+    <section>
+        <div class="contact" id="contact">
+            <div class="main-text">
+                <span>Ask me question</span>
+                <h2>Contact Me</h2>
+            </div>
+
+            <form action="#">
+                <input type="text" placeholder="your name">
+                <input type="text" placeholder="your Email">
+                <input type="text" placeholder="your Address">
+                <input type="Number" placeholder="Phone Number">
+                <textarea name="" id="" cols="30" rows="10" placeholder="your message"></textarea>
+                <div class="btn-box formbtn">
+                    <button type="submit" class="btn">Send Message</button>
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <div class="footer-right">
+            Copyright &#169; www.navinsportfolio.com | All rights reserved
+        </div>
+    </section>
+
+
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Front end Developer', 'Back end Developer', 'Web Designer','Front end Developer', 'Back end Developer', 'Web Designer'],
+            typeSpeed: 80,
+        
+        });
+    </script>
+
+    <!-- javascript -->
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
